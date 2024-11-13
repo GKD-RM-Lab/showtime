@@ -15,7 +15,7 @@
 
 namespace show {
 namespace ui {
-ImVec4 WINDOW_BG = ImVec4(0.114, 0.098, 0.161, 0.75);
+ImVec4 WINDOW_BG {ImVec4(0.114, 0.098, 0.161, 0.75)};
 
 static void glfw_error_callback(int error, const char* description)
 {
